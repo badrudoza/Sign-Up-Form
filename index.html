@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header></header>
+    <main class="main_container">
+      <div class="signup_form_container">
+        <h1 class="form_heading">Signup</h1>
+        <form method="post" class="form_input_container">
+          <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            class="input_field"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            class="input_field"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="input_field"
+            required
+          />
+          <input
+            type="password"
+            id="cnf_password"
+            placeholder="Confirm Password"
+            class="input_field"
+            required
+          />
+          <input
+            type="date"
+            id="date"
+            placeholder="DD/MM/YYYY"
+            class="input_field"
+            required
+          />
+          <div class="radio_btn">
+            <div>
+              <input
+                class="rdbtn"
+                type="radio"
+                name="currentWork"
+                id="student"
+                value="student"
+                required
+              />
+              <label for="student">Student</label>
+            </div>
+            <div>
+              <input
+                class="rdbtn"
+                type="radio"
+                name="currentWork"
+                id="employee"
+                value="employee"
+                required
+              />
+              <label for="employee">Employee</label>
+            </div>
+          </div>
+          <div class="checkbox_btn">
+            <input type="checkbox" id="check" required />
+            <label for="check">I agree to all the Terms and conditions</label>
+          </div>
+          <button type="submit" class="submit_btn">Signup</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

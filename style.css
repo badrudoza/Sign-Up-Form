@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+}
+
+.main_container {
+    width: 90%;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    margin: auto;
+    margin-top: 30px;
+}
+
+.signup_form_container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form_heading {
+    margin-left: 4px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.form_input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input_field,
+.radio_btn,
+.checkbox_btn {
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.input_field {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    opacity: 0.9;
+}
+
+.input_field::placeholder {
+    color: white;
+}
+
+.input_field:focus {
+    outline: none;
+}
+
+.radio_btn {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.checkbox_btn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.submit_btn {
+    width: 14rem;
+    height: 3.25rem;
+    margin-top: 40px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
